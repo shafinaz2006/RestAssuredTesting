@@ -27,7 +27,7 @@ public class RestAssuredTestNGGET1 {
 		res = given().
 		     param("location", "-33.8670522,151.1957362").
 		     param("radius", "500").
-		     param("key", "AIzaSyCEKZxGoy5nILa3fDQRpb_Y6a_9bbWLHRY").
+		     param("key", "MyGoogleAPIKEY").
 		 when().
 		     get("maps/api/place/nearbysearch/json").
 		 then().
